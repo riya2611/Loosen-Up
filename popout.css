@@ -1,0 +1,50 @@
+*{
+    padding : 0%;
+    margin : 0%;
+}
+
+p{
+    padding : 10px;
+    font-size : 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-width : 100px;
+    width : 250px;
+    height: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.todo-items{
+    padding : 10px;
+    font-size : 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-width : 100px;
+    width : 250px;
+    height: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    list-style: none;
+}
+
+.todo-items li{
+    display: flex;
+    border-bottom: 2px solid grey;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.todo-items li:hover{
+    background: rgba(201, 231, 201);
+}
+.todo-items li.done .item{
+    text-decoration: line-through;
+}
+.todo-items div span{
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.create-todo{
+    margin: 10px;
+}
+.new-item{
+    display: none;
+}
